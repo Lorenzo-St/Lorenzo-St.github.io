@@ -1,0 +1,16 @@
+Body
+{
+  background-color: plum;
+}
+
+.box
+{
+  background-color: rgb(200, 10, 200);
+  border: 5px solid black;
+}
+
+header > h1
+{
+  position: absolute;
+  left: center;
+}
