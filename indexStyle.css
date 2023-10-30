@@ -2,18 +2,15 @@ body
 {
   background-color: rgb(34, 34, 34);
 }
-
 .center {
   text-align: center;
   border: 2px black; 
 }
-
 @keyframes fadeIn
 {
   from {opacity: 0;}
   to {opacity: 1;}
 }
-
 @keyframes moveTopAndLeftBar
 {
   from{left:40%; top: 40%;}
@@ -36,7 +33,6 @@ body
   animation-duration: 5s;
   animation-fill-mode: forwards;
 }
-
 .bar
 {
   background-image: linear-gradient(purple, skyblue);
@@ -47,7 +43,6 @@ body
   margin-top: -40%;
 
 }
-
 .leftVerticalBar
 {
   position: fixed;
@@ -60,7 +55,6 @@ body
   animation-duration: 2s;
   animation-fill-mode: forwards;
 }
-
 .rightVerticalBar
 {
   position: fixed;
@@ -73,7 +67,6 @@ body
   animation-duration: 2s;
   animation-fill-mode: forwards;
 }
-
 .tophorizontalBar
 {
   position: fixed;
@@ -98,10 +91,6 @@ body
   animation-duration: 2s;
   animation-fill-mode: forwards;
 }
-
-
-
-
 .introductiontext
 {
   position: relative;
@@ -112,7 +101,6 @@ body
   margin-right: 1%;
 
 }
-
 .introductionbox
 {
   position: inherit;
@@ -126,14 +114,12 @@ body
   height: 160px;
 
 }
-
 .page_center
 {
   position: fixed;
   left: 50%;
   top: 50%;
 }
-
 .name
 {
   text-align: left;
@@ -142,15 +128,11 @@ body
   top: 50%;
 
 }
-
 .tab
 {
   position: relative;
   left: 10%;
 }
-
-
-
 .linksbarIndex
 {
   position:fixed;
