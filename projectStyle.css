@@ -22,7 +22,10 @@
   color: white;
 
 }
-
+.taby {
+  display: inline-block;
+  margin-left: 4em;
+}
 .item>.text {
   position: relative;
   margin-left: 35vw;
