@@ -1,191 +1,205 @@
-html, body
-{
+html,
+body {
   background-color: rgb(34, 34, 34);
   width: 100%;
   height: 125%;
   margin: 0;
   padding: 0;
 }
+
 .center {
   text-align: center;
-  border: 2px black; 
+  border: 2px black;
 }
-@keyframes fadeIn
-{
-  from {opacity: 0;}
-  to {opacity: 1;}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
-@keyframes moveTopAndLeftBar
-{
-  from{left:40%; top: 40%;}
-  to{left: 10%; top: 20%;}
+
+@keyframes moveTopAndLeftBar {
+  from {
+    left: 40%;
+    top: 40%;
+  }
+
+  to {
+    left: 10%;
+    top: 20%;
+  }
 }
-@keyframes movebotAndrightBar
-{
-  from{right:40%; bottom: 40%;}
-  to{right: 10%; bottom: 20%;}
+
+@keyframes movebotAndrightBar {
+  from {
+    right: 40%;
+    bottom: 40%;
+  }
+
+  to {
+    right: 10%;
+    bottom: 20%;
+  }
 }
-.namebox
-{
+
+.namebox {
   align-content: left;
-  margin-left: -120%;
-  width: 500px;
-  margin-top: -30%;
-  color:white;
-  font-size: 25px;
+  margin-left: -30vw;
+  width: 28vw;
+  margin-top: -15vh;
+  color: white;
+  font-size: 2.5vh;
   animation-name: fadeIn;
   animation-duration: 5s;
   animation-fill-mode: forwards;
 }
-.bar
-{
+
+.bar {
   background-image: linear-gradient(purple, skyblue);
   position: inherit;
-  margin-left: 90%;
-  height: 200px;
-  width: 10px;
-  margin-top: -40%;
+  margin-left: 25vw;
+  height: 10.7vw;
+  width: 1vh;
+  margin-top: -20vh;
 
 }
-.leftVerticalBar
-{
+
+.leftVerticalBar {
   position: fixed;
-  left:10%;
-  top:20%;
-  width:20px;
-  height:200px;
+  left: 10vw;
+  top: 20vh;
+  width: 1vw;
+  height: 20vh;
   background-color: skyblue;
   animation-name: moveTopAndLeftBar;
   animation-duration: 2s;
   animation-fill-mode: forwards;
 }
-.rightVerticalBar
-{
+
+.rightVerticalBar {
   position: fixed;
-  right:10%;
-  bottom:20%;
-  width:20px;
-  height:200px;
+  right: 10vw;
+  bottom: 20vh;
+  width: 1vw;
+  height: 20vh;
   background-color: skyblue;
   animation-name: movebotAndrightBar;
   animation-duration: 2s;
   animation-fill-mode: forwards;
 }
-.tophorizontalBar
-{
+
+.tophorizontalBar {
   position: fixed;
-  left:10%;
-  top:20%;
-  width:200px;
-  height:20px;
+  left: 10vw;
+  top: 20vh;
+  width: 10vw;
+  height: 2vh;
   background-color: skyblue;
   animation-name: moveTopAndLeftBar;
   animation-duration: 2s;
   animation-fill-mode: forwards;
 }
-.bothorizontalBar
-{
+
+.bothorizontalBar {
   position: fixed;
-  right:10%;
-  bottom:20%;
-  width:200px;
-  height:20px;
+  right: 10vw;
+  bottom: 20vh;
+  width: 10vw;
+  height: 2vh;
   background-color: skyblue;
   animation-name: movebotAndrightBar;
   animation-duration: 2s;
   animation-fill-mode: forwards;
 }
-.introductiontext
-{
+
+.introductiontext {
   position: relative;
-  color:white;
-  font-size:21px;
-  margin-top: 2%;
-  margin-left: 1%;
-  margin-right: 1%;
+  color: white;
+  font-size: 2.1vh;
+  margin-top: 2vh;
+  margin-left: .1vw;
+  margin-right: .1vw;
 
 }
-.introductionbox
-{
+
+.introductionbox {
   position: inherit;
   border: 1px transparent white;
   text-align: left;
-  color:white;
-  font-size:20px;
-  margin-top: -40%;
-  margin-left: 100%;
-  width: 700px;
-  height: 160px;
+  color: white;
+  font-size: 2vh;
+  margin-top: -20vh;
+  margin-left: 28vw;
+  width: 37vw;
+  height: 10vh;
 
 }
-.page_center
-{
+
+.page_center {
   position: fixed;
-  left: 50%;
-  top: 50%;
+  left: 50vw;
+  top: 50vh;
 }
-.name
-{
+
+.name {
   text-align: left;
   position: absolute;
-  left: 70%;
-  top: 50%;
+  left: 35vw;
+  top: 50vh;
 
 }
-.tab
-{
+
+.tab {
   position: relative;
-  left: 10%;
+  left: 10vw;
 }
-.linksbarIndex
-{
-  position:fixed;
 
-  left: 30%;
-  bottom: 25%;
+.linksbarIndex {
+  position: fixed;
+
+  left: 30vw;
+  bottom: 25vh;
   animation-name: fadeIn;
   animation-duration: 5s;
 }
-.linksbarOther
-{
-  position:fixed;
 
-  left: 30%;
-  bottom: 25%;
+.linksbarOther {
+  position: fixed;
+
+  left: 30vw;
+  bottom: 25vh;
   animation-name: fadeIn;
   animation-duration: 1s;
 }
 
-a:link
-{
+a:link {
   text-decoration: none;
   color: skyblue;
   background-color: transparent;
-  font-size:30px;
+  font-size: 3vh;
 }
-a:hover
-{
+
+a:hover {
   text-decoration: none;
   color: rgb(76, 168, 204);
   background-color: transparent;
-  font-size:30px;
+  font-size: 3vh;
 }
-a:active
-{
+
+a:active {
   text-decoration: none;
   color: rgb(194, 223, 235);
   background-color: transparent;
-  font-size:30px;
+  font-size: 3vh;
 }
-a:visited
-{
+
+a:visited {
   text-decoration: none;
   color: rgb(99, 149, 168);
   background-color: transparent;
-  font-size:30px;
+  font-size: 3vh;
 }
-
-
-
-
-

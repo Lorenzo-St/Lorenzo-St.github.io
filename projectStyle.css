@@ -1,76 +1,74 @@
-@keyframes fadeIn
-{
-  from {opacity: 0;}
-  to {opacity: 1;}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
-.projHeader
-{
-  position:fixed;
-  color:skyblue;
-  left:15%;
-  top:10%;
-  font-size: 50px;
+.projHeader {
+  position: fixed;
+  color: skyblue;
+  left: 15vw;
+  top: 10vh;
+  font-size: 5vh;
   animation-name: fadeIn;
   animation-duration: 1s;
 }
 
-.item
-{
-  color:white;
+.item {
+  color: white;
 
 }
 
-.item > .text
-{
+.item>.text {
   position: relative;
-  margin-left: 120%;
-  margin-top:-50%;
-  width:400px;
+  margin-left: 35vw;
+  margin-top: -25vh;
+  width: 21.45vw;
   text-align: left;
-  color:white;
-
-
+  color: white;
+  font-size:1.6vh;
 }
-.content
-{
-  position:absolute;
-  left:17.5%;
-  top:17.5%;
+
+.content {
+  position: absolute;
+  left: 17.5vw;
+  top: 17.5vh;
   animation-name: fadeIn;
   animation-duration: 2s;
 }
-.spacer
-{
-  height:50px;
-}
-.item > h3
-{
-  margin-left:5%;
-  font-size: 30px;
-  color:skyblue;
+
+.spacer {
+  height: 5vh;
 }
 
-.linksFooterBG
-{
-  position:fixed;
+.item>h3 {
+  margin-left: 2.5vw;
+  font-size: 3vh;
+  color: skyblue;
+}
+
+.linksFooterBG {
+  position: fixed;
   opacity: 90%;
-  bottom:0%;
-  left:0;
-  width:100%;
-  height:10%;
-  background-color: rgb(20,20,20);
+  bottom: 0%;
+  left: 0;
+  width: 100%;
+  height: 10%;
+  background-color: rgb(20, 20, 20);
   animation-name: fadeIn;
   animation-duration: 1s;
 }
 
-.linksFooter
-{
+.linksFooter {
 
-  position:fixed;
+  position: fixed;
 
-  left: 30%;
-  bottom: 3%;
+  left: 30vw;
+  bottom: 3vh;
   animation-name: fadeIn;
   animation-duration: 1s;
 }
