@@ -52,7 +52,7 @@ body {
   width: 28vw;
   margin-top: -15vh;
   color: white;
-  font-size: 2.5vh;
+  font-size: 2.0vmin;
   animation-name: fadeIn;
   animation-duration: 5s;
   animation-fill-mode: forwards;
@@ -62,9 +62,9 @@ body {
   background-image: linear-gradient(purple, skyblue);
   position: inherit;
   margin-left: 25vw;
-  height: 10.7vw;
+  height: 10.7vmax;
   width: 1vh;
-  margin-top: -20vh;
+  margin-top: -15vh;
 
 }
 
@@ -72,8 +72,8 @@ body {
   position: fixed;
   left: 10vw;
   top: 20vh;
-  width: 1vw;
-  height: 20vh;
+  width: 1vmin;
+  height: 15vmin;
   background-color: skyblue;
   animation-name: moveTopAndLeftBar;
   animation-duration: 2s;
@@ -84,8 +84,8 @@ body {
   position: fixed;
   right: 10vw;
   bottom: 20vh;
-  width: 1vw;
-  height: 20vh;
+  width: 1vmin;
+  height: 15vmin;
   background-color: skyblue;
   animation-name: movebotAndrightBar;
   animation-duration: 2s;
@@ -96,8 +96,8 @@ body {
   position: fixed;
   left: 10vw;
   top: 20vh;
-  width: 10vw;
-  height: 2vh;
+  width: 15vmin;
+  height: 1vmin;
   background-color: skyblue;
   animation-name: moveTopAndLeftBar;
   animation-duration: 2s;
@@ -108,8 +108,8 @@ body {
   position: fixed;
   right: 10vw;
   bottom: 20vh;
-  width: 10vw;
-  height: 2vh;
+  width: 15vmin;
+  height: 1vmin;
   background-color: skyblue;
   animation-name: movebotAndrightBar;
   animation-duration: 2s;
@@ -117,10 +117,10 @@ body {
 }
 
 .introductiontext {
-  position: relative;
+  position: inherit;
   color: white;
-  font-size: 2.1vh;
-  margin-top: 2vh;
+  font-size: 2.1vmin;
+  margin-top: 2vmax;
   margin-left: .1vw;
   margin-right: .1vw;
 
@@ -132,7 +132,7 @@ body {
   text-align: left;
   color: white;
   font-size: 2vh;
-  margin-top: -20vh;
+  margin-top: -20vmin;
   margin-left: 28vw;
   width: 37vw;
   height: 10vh;
@@ -180,26 +180,26 @@ a:link {
   text-decoration: none;
   color: skyblue;
   background-color: transparent;
-  font-size: 3vh;
+  font-size: 3vmin;
 }
 
 a:hover {
   text-decoration: none;
   color: rgb(76, 168, 204);
   background-color: transparent;
-  font-size: 3vh;
+  font-size: 3vmin;
 }
 
 a:active {
   text-decoration: none;
   color: rgb(194, 223, 235);
   background-color: transparent;
-  font-size: 3vh;
+  font-size: 3vmin;
 }
 
 a:visited {
   text-decoration: none;
   color: rgb(99, 149, 168);
   background-color: transparent;
-  font-size: 3vh;
+  font-size: 3vmin;
 }

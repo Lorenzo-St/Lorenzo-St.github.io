@@ -1,3 +1,12 @@
+
+html,
+body {
+  background-color: rgb(34, 34, 34);
+  width: 100%;
+  height: 160%;
+  margin: 0;
+  padding: 0;
+}
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -13,7 +22,7 @@
   color: skyblue;
   left: 15vw;
   top: 10vh;
-  font-size: 5vh;
+  font-size: 5vmin;
   animation-name: fadeIn;
   animation-duration: 1s;
 }
@@ -33,7 +42,7 @@
   width: 21.45vw;
   text-align: left;
   color: white;
-  font-size:1.6vh;
+  font-size:1.6vmin;
 }
 
 .content {
@@ -50,7 +59,7 @@
 
 .item>h3 {
   margin-left: 2.5vw;
-  font-size: 3vh;
+  font-size: 3vmin;
   color: skyblue;
 }
 
