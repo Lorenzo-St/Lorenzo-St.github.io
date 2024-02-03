@@ -10,52 +10,43 @@
   <div>
     <div class="content">
       <div class="item">
-        <h3>Simply Survive</h3>
-        <img src="imgs/Title Image.png" style="width: 26.82vw; height: 25vh" />
+        <h3>Vulkan Renderer</h3>
+        <video style="width: 26.82vw; height: 25vh" autoplay loop muted preload="auto" >
+          <source src="Vods/Vulkan Example.mp4" type="video/mp4"/>
+        </video>
         <div class="text">
           <p>
-            Simply Survive is a game that I made on my own during the first year
-            of college. It was a simple project made initially entirely in C. It
-            is a 2D top down wave based shooter, where you must survive for as
-            long as possible against increasingly more difficult waves of
-            enemies.
+            A vulkan renderer that I am writing for fun. It will eventually be
+            merged into ORB, my rendering backend.
           </p>
           <p>
-            I rewrote the entire project in C++ when I was preparing to launch
-            it on steam. The project makes use of Cprocessing as it's main
-            engine backend. When rewriting the project, I made it so that all
-            items are serialized and easily modified.
+            I'm writing the renderer solo. Currently I'm working on adding
+            support lighting and figuring out ways to abstract away some of the
+            vulkan calls
           </p>
-          <a href="https://github.com/Lorenzo-St/Project-Live">Repository</a>
-          <span class="taby"></span>
-          <a href="https://store.steampowered.com/app/2373030/Simply_Survive/"
-            >Steam Page</a
+          <a href="https://github.com/Lorenzo-St/Vulcan-Work"
+            >Repository</a
           >
         </div>
       </div>
       <div class="spacer"></div>
-      <div class="item" style="margin-top: -5vmax;"><br>
-        <h3>Arcanic Cards</h3>
-        <img src="imgs/ArkanicCards.png" style="width: 26.82vw; height: 30vh" />
+      <div class="item">
+        <h3>Overloaded Render Backend</h3>
+        <img src="imgs/ORB.png" style="width: 26.82vw; height: 25vh" />
         <div class="text">
-          <p style="margin-top: -30vh">
-            Arcanic Cards was a team game that I worked on in my GAM100 class in
-            college. It was a simple card game where the core gimic was that you
-            could buy new cards in the middle of a match.
+          <p>
+            Overloaded Render Backend or ORB is a graphics rendering backend
+            that I put together to abstract away all of the graphics API calls
+            needed to render with opengl, vulkan and DirctX.
           </p>
           <p>
-            The game only consisted of a tutorial and a vs AI game mode. I was
-            the one who built the entire card handling back end and the
-            tutorial.
+            Currently the API only supports OpenGL, but I plan on adding Vulkan
+            after I finish learning it fully. And I will add DirectX support
+            when I learn it
           </p>
-          <p>
-            I was also responsible for writing the AI that the player plays
-            against
-          </p>
-          <p>
-            Unfortunately as this is a class project, the repo cannot be made
-            public. Nor does it have a publicly accessible build.
-          </p>
+          <a href="https://github.com/Lorenzo-St/OverloadedRenderBackend"
+            >Repository</a
+          >
         </div>
       </div>
       <div class="spacer"></div>
@@ -92,6 +83,58 @@
           </p>
         </div>
       </div>
+      <div class="item">
+        <h3>Simply Survive</h3>
+        <img src="imgs/Title Image.png" style="width: 26.82vw; height: 25vh" />
+        <div class="text">
+          <p>
+            Simply Survive is a game that I made on my own during the first year
+            of college. It was a simple project made initially entirely in C. It
+            is a 2D top down wave based shooter, where you must survive for as
+            long as possible against increasingly more difficult waves of
+            enemies.
+          </p>
+          <p>
+            I rewrote the entire project in C++ when I was preparing to launch
+            it on steam. The project makes use of Cprocessing as it's main
+            engine backend. When rewriting the project, I made it so that all
+            items are serialized and easily modified.
+          </p>
+          <a href="https://github.com/Lorenzo-St/Project-Live">Repository</a>
+          <span class="taby"></span>
+          <a href="https://store.steampowered.com/app/2373030/Simply_Survive/"
+            >Steam Page</a
+          >
+        </div>
+      </div>
+      <div class="spacer"></div>
+      <div class="item" style="margin-top: -5vmax">
+        <br />
+        <h3>Arcanic Cards</h3>
+        <img src="imgs/ArkanicCards.png" style="width: 26.82vw; height: 30vh" />
+        <div class="text">
+          <p style="margin-top: -30vh">
+            Arcanic Cards was a team game that I worked on in my GAM100 class in
+            college. It was a simple card game where the core gimic was that you
+            could buy new cards in the middle of a match.
+          </p>
+          <p>
+            The game only consisted of a tutorial and a vs AI game mode. I was
+            the one who built the entire card handling back end and the
+            tutorial.
+          </p>
+          <p>
+            I was also responsible for writing the AI that the player plays
+            against
+          </p>
+          <p>
+            Unfortunately as this is a class project, the repo cannot be made
+            public. Nor does it have a publicly accessible build.
+          </p>
+        </div>
+      </div>
+      <div class="spacer"></div>
+      
       <div class="spacer"></div>
     </div>
   </div>
