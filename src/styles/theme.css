@@ -1,0 +1,49 @@
+
+/* theme.css */
+:root {
+  /* Base */
+  --bg: #060912;
+  --fg: #B6D8EF;
+
+  /* Cursor / focus */
+  --focus: #e6faff;
+  --selection-bg: #9dbfdb;
+  --selection-fg: #2d466e;
+
+  /* Palette */
+  --p0: #060912;
+  --p1: #1F273C;
+  --p2: #2F3C5D;
+  --p3: #34558E;
+  --p4: #3D507A;
+  --p5: #536A9F;
+  --p6: #769CCD;
+  --p7: #B6D8EF;
+
+  --p8: #1E1119;
+  --p9: #111726;
+  --p10: #A584B0;
+  --p11: #583F58;
+  --p12: #9D5156;
+  --p13: #311821;
+  --p14: #DB7A59;
+  --p15: #172D2B;
+  /* UI semantics */
+  --color-bg-main: var(--bg);
+  --color-bg-card: var(--p1);
+  --color-bg-elevated: var(--p2);
+
+  --color-text-main: var(--fg);
+  --color-text-muted: var(--p6);
+  --color-text-inverse: var(--p0);
+
+  --color-accent: var(--p3);
+  --color-accent-hover: var(--p5);
+
+  --color-danger: var(--p14);
+  --color-warning: var(--p12);
+  --color-success: var(--p6);
+
+  --color-border: var(--p4);
+
+}

@@ -1,0 +1,38 @@
+.Navigation {
+   background: var(--color-bg-main);
+}
+:root{
+  --header-height: 30vh;
+}
+
+header {
+   position: fixed;
+   top: 0;
+   width: 100%;
+   height: var(--header-height);
+   background: var(--color-bg-main);
+ }
+
+body {
+  background: var(--color-bg-main);
+}
+
+.Home-Background {
+  padding-top: var(--header-height);
+  background: var(--color-bg-main);
+  color: var(--color-text-main);
+}
+
+.featuredProjects {
+  justify-content:center;
+  width: 100%;
+}
+
+.Header-Name {
+ text-align: left;
+ padding-left: 5vw;
+ pattind-botton: 0vh;
+ font-size: calc(20px + 2vmin);
+ color: var(--color-text-main);
+ }
+

@@ -1,0 +1,26 @@
+
+.Navbutton{
+  text-align: center;
+  width: 12rem;
+  height: 10rm;
+  background: var(--color-bg-elevated);
+  border: 0px rgb(50,50,50);
+  color: var(--color-text-main);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  border-radius: 20px; 
+  justify-self: center;
+  font-size: calc(6px + 2vmin);
+}
+
+.NavBar{
+  width: 100%;
+  padding-top: 0;
+  align-content: center;
+  vertical-align: middle;
+}
+
+.NavButtonArea {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  width: 100vw;
+}
