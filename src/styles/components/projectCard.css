@@ -1,3 +1,9 @@
+:root{
+  --max-card-size: 30vh;
+  --max-content-size: 27vh;
+
+}
+
 .article{
   color: var(--color-text-card);
   width: 80%;
@@ -6,7 +12,6 @@
   border-radius: 12px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
   display: block;
-  
   margin-left:auto;
   margin-right:auto;
   margin-top:3vh;
@@ -36,14 +41,15 @@
 }
 
 .projectText{
-  flex: 1;
-  max-height: 95%;
+  flex: 1 1 auto;
   max-width: 50%;
+  max-height: var(--max-content-size);
   text-align: left;
   background: var(--color-bg-elevated);
   border-radius: 20px;
   margin-left:2.5%;
   margin-right:2.5%;
+  overflow: auto;
 }
 
 .backgroundColor{

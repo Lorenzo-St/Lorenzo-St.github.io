@@ -2,7 +2,7 @@
    background: var(--color-bg-main);
 }
 :root{
-  --header-height: 30vh;
+  --header-height: 15vh;
 }
 
 header {

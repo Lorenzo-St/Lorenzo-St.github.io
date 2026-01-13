@@ -4,7 +4,7 @@ import mbpText from '../projects/mbp.md'
 import zenImage from './images/Vulkan.PNG'
 import zenText from '../projects/zen-engine.md'
 
-
+import dataCText from '../projects/datacorrupted.md'
 export const projects = [
   {
     id: "Zen Engine",
@@ -20,4 +20,11 @@ export const projects = [
     featured: false,
     video: null,
   },
+  {
+    id: "Data Corrupted",
+    markdown: dataCText,
+    image: null,
+    featured: false,
+    video: null,
+  }
 ];

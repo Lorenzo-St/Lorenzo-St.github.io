@@ -14,7 +14,7 @@ function ProjectDescription({ fileName }) {
       .then(setContent)
       .catch((err) => console.error(err));
   }, [fileName]);
-  return <ReactMarkdown remarkPlugins={[remarkGfm]}>{content}</ReactMarkdown>;
+  return <div> <ReactMarkdown remarkPlugins={[remarkGfm]}>{content}</ReactMarkdown> </div>;
 }
 
 export default ProjectDescription;
